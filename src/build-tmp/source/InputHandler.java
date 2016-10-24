@@ -61,8 +61,8 @@ public final class InputHandler {
             case 'c':
                 app.adjustNumTiles(false);
                 break;
-            case '1': case '2': case '3': case '4': case '5':
-                app.setStarPattern(Character.getNumericValue(key));
+            case '1': case '2': case '3': case '4': case '5': case '6':
+                app.setStarPattern(Character.getNumericValue(key)-1);
                 break;
             default:
                 break;

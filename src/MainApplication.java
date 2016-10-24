@@ -125,5 +125,5 @@ class MainApplication {
     private static float ZOOM_RATIO = 1.03f;
 
     private static Color BACKGROUND_COLOR = new Color(236, 240, 241);
-    private static String ARCH_FILENAME = "Archimedeans.xml";
+    private static String ARCH_FILENAME = "data/Archimedeans.xml";
 }
